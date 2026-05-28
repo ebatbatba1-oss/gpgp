@@ -61,9 +61,9 @@ body {
 
 /* 2. 사진 업로드칸 (중단 회색 상자 영역) */
 .photo-box {
-    top: 28.5%;
-    left: 24.2%;
-    width: 51.6%;
+    top: 28.0%;
+    left: 23.7%;
+    width: 52.6%;
     aspect-ratio: 1 / 1; /* 1:1 정방형 완벽 고정 */
     cursor: pointer;
     display: flex;
@@ -84,7 +84,7 @@ body {
 
 /* 3. 한마디 입력칸 (하단 흰색 영역) */
 .comment-box {
-    top: 58.5%;
+    top: 56.5%;
     left: 21%;
     width: 58%;
     height: 19.5%;
