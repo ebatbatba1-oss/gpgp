@@ -84,10 +84,10 @@ body {
 
 /* 3. 한마디 입력칸 (하단 흰색 영역) */
 .comment-box {
-    top: 49.5%; /* 사진과의 간격을 거의 밀착되도록 위로 끌어올림 */
+    top: 51.5%; /* 위치를 더 위로 올림 */
     left: 21%;
     width: 58%;
-    height: 21.5%; /* 시작 위치가 올라간 만큼 아래쪽 영역 유지를 위해 높이 증가 */
+    height: 24.5%; /* 시작 위치가 올라간 만큼 아래쪽 영역 유지를 위해 높이 증가 */
     display: flex;
     align-items: center;
     justify-content: center;
