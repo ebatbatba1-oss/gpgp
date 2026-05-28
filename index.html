@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신문 프로필 메이커</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <div class="newspaper-wrapper" id="captureArea">
+            <img src="bg.jpg" alt="신문 배경" class="bg-image">
+
+            <div id="nameInput" class="input-box name-box" contenteditable="true" data-placeholder="이름(나이)"></div>
+
+            <div class="input-box photo-box" id="photoArea">
+                <input type="file" id="fileInput" accept="image/*">
+                <canvas id="hiddenCanvas" style="display: none;"></canvas>
+                <img id="uploadedImage" alt="업로드된 사진">
+            </div>
+
+            <div id="commentInput" class="input-box comment-box" contenteditable="true" data-placeholder="한마디"></div>
+        </div>
+
+        <button class="download-btn" id="downloadBtn">이미지 다운로드</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
