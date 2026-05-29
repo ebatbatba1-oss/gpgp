@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700&display=swap');
+
 /* 기본 초기화 */
 * {
     box-sizing: border-box;
@@ -54,6 +56,7 @@ body {
     justify-content: center;
     text-align: center;
     color: #ffffff;
+    font-family: 'Noto Serif KR', serif; /* 명조체 적용 */
     font-size: clamp(16px, 4vw, 24px);
     font-weight: bold;
     white-space: nowrap;
@@ -93,6 +96,7 @@ body {
     justify-content: center;
     text-align: center;
     color: #000000;
+    font-family: 'Noto Serif KR', serif; /* 명조체 적용 */
     font-weight: bold;
     font-size: clamp(18px, 4.5vw, 24px); /* 폰트 크기를 눈에 띄게 대폭 키움 */
     line-height: 1.5;
