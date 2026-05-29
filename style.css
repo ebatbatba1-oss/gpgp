@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Noto+Serif+KR:wght@400;700&display=swap');
 
 /* 기본 초기화 */
 * {
@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif;
 }
 
 .app-container {
@@ -56,7 +56,7 @@ body {
     justify-content: center;
     text-align: center;
     color: #ffffff;
-    font-family: 'Noto Serif KR', serif; /* 명조체 적용 */
+    font-family: 'Noto Serif KR', 'Nanum Myeongjo', '바탕', Batang, '궁서', Gungsuh, serif;
     font-size: clamp(16px, 4vw, 24px);
     font-weight: bold;
     white-space: nowrap;
@@ -96,7 +96,7 @@ body {
     justify-content: center;
     text-align: center;
     color: #000000;
-    font-family: 'Noto Serif KR', serif; /* 명조체 적용 */
+    font-family: 'Noto Serif KR', 'Nanum Myeongjo', '바탕', Batang, '궁서', Gungsuh, serif;
     font-weight: bold;
     font-size: clamp(18px, 4.5vw, 24px); /* 폰트 크기를 눈에 띄게 대폭 키움 */
     line-height: 1.5;
